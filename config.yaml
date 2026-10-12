@@ -1,0 +1,23 @@
+watch_directory: "~/Downloads"
+sweep_interval_hours: 24
+installer_max_age_days: 14
+
+categories:
+  documents:
+    destination: "~/Documents/Downloads"
+    extensions: [".pdf", ".docx", ".xlsx", ".pptx", ".txt"]
+  media:
+    destination: "~/Pictures/Downloads"
+    extensions: [".png", ".jpg", ".jpeg", ".svg", ".mp4", ".mov"]
+  archives:
+    destination: "~/Archives"
+    extensions: [".zip", ".tar.gz", ".tar", ".7z"]
+  installers:
+    destination: "~/Downloads/_Installers"
+    extensions: [".dmg", ".pkg", ".exe", ".msi"]
+
+ignore_extensions:
+  - ".crdownload"
+  - ".part"
+  - ".tmp"
+  - ".download"
